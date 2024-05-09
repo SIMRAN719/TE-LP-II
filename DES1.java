@@ -15,7 +15,7 @@ import javax.crypto.KeyGenerator;
 import javax.crypto.NoSuchPaddingException;  
 import javax.crypto.SecretKey;  
 import javax.crypto.spec.IvParameterSpec;   
-public class DES1  
+public class DES1 
 {  
 //creating an instance of the Cipher class for encryption  
 private static Cipher encrypt;  
@@ -27,11 +27,11 @@ private static final byte[] initialization_vector = { 22, 33, 11, 44, 55, 99, 66
 public static void main(String[] args)   
 {  
 //path of the file that we want to encrypt  
-String textFile = "D://SEM-II_AY_2022-23//LP-II//IS Experiments//IS Experiment No. 3/DemoData.txt";  
+String textFile = "C:\\Users\\hasna\\Desktop\\Simran\\TE\\TE-SEM-2\\Practicals\\LP\\DES.java\\DemoData.txt";  
 //path of the encrypted file that we get as output  
-String encryptedData = "D://SEM-II_AY_2022-23//LP-II//IS Experiments//IS Experiment No. 3/encrypteddata.txt";  
+String encryptedData = "C:\\Users\\hasna\\Desktop\\Simran\\TE\\TE-SEM-2\\Practicals\\LP\\DES.java\\encrypteddata.txt";  
 //path of the decrypted file that we get as output  
-String decryptedData = "D://SEM-II_AY_2022-23//LP-II//IS Experiments//IS Experiment No. 3/decrypteddata.txt";  
+String decryptedData = "C:\\Users\\hasna\\Desktop\\Simran\\TE\\TE-SEM-2\\Practicals\\LP\\DES.java\\decrypteddata.txt";  
 try   
 {  
 //generating keys by using the KeyGenerator class  
